@@ -2,6 +2,18 @@
 
 # create own pkg
 
+## Folder Structure
+
+```
+pypkg/
+├── pypkg/
+│   ├── __init__.py
+│   └── math_functions.py
+└── setup.py
+```
+
+## Setup
+
 ```
 pip install git+https://github.com/kode2go/pypkg.git
 ```
